@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>designer_patterns_factory_method</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="designer-patterns-factory-method.sln" />
+    <Content Include="Src\App\useCasesFactory.cs" />
+    <Content Include="Src\Domain\IHttp.interface.cs" />
+    <Content Include="Program.cs" />
+    <Content Include="Src\Program.cs" />
+    <Content Include="Src\Domain\ILogger.interface.cs" />
+    <Content Include="Src\Domain\IFactoryMethod.interface.cs" />
+    <Content Include="Src\Infra\http\http.cs" />
+    <Content Include="Src\Infra\logger\logger.cs" />
+    <Content Include="Src\Infra\factory.cs" />
+    <Content Include="Src\Infra\logger.cs" />
+    <Content Include="Src\Infra\http.cs" />
+    <Content Include="Src\Infra\builder.cs" />
+  </ItemGroup>
+</Project>
